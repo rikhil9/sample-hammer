@@ -1,0 +1,11 @@
+<div *ngIf="hero">
+  <h2>{{hero.title}} details!</h2>
+  
+<div>{{hero.description}}</div>
+<br>
+City: <span>{{hero.city}}</span>
+<br>
+Creation Date: <span>{{hero.created_at}}</span>
+<br>
+<button (click)="goBack()">Back</button>
+</div>
